@@ -1,0 +1,422 @@
+
+
+.navbar
+{
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: transparent;
+    border-bottom: 0;
+}
+
+.footer
+{
+    border-top: 1px solid #DDDDDD;
+    margin-top: 60px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+<!-- Главная -->
+
+
+h1
+{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #333;
+    margin-top: 0;
+}
+
+p
+{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 18px;
+    letter-spacing: .03em;
+    color: #5D5D5D;
+}
+
+link
+{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 18px;
+    letter-spacing: .03em;
+}
+
+button
+{
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.mega
+{
+    height: 100vh;
+    background-image: url('image/Dropper-Bottle-Mockup.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding-left: 150px;
+}
+
+.name-head
+{
+    text-transform: uppercase;
+    font-size: 6.125em;
+    font-weight: bold;
+    line-height: .885em;
+    letter-spacing: .03em;
+    color: #ffffff;
+    width: 40%;
+    margin-top: 0;
+    padding-top: 125px;
+    padding-bottom: 60px;
+}
+
+@media (max-width: 1600px)
+{
+    .name-head
+    {
+        font-size: 5.125em;
+    }
+}
+
+@media (max-width: 1366px)
+{
+    .name-head
+    {
+        font-size: 4.8em;
+    }
+    .service, .card
+    {
+        padding-left: 60px !important;
+        padding-top: 50px !important;
+    }
+    .our-sweets
+    {
+        padding-bottom: 5px !important;
+    }
+    .about-meg
+    {
+        width: 100% !important;
+    }
+    .about
+    {
+        padding-top: 150px !important;
+    }
+}
+
+@media (max-width: 1024px)
+{
+    .name-head
+    {
+        font-size: 3.425em;
+    }
+}
+
+.our-sweets
+{
+    width: 30%;
+    padding-bottom: 50px;
+}
+
+.service
+{
+    position: static;
+    left: 60%;
+    right: 0px;
+    bottom: 50%;
+    width: 40%;
+    height: 50vh;
+    float: right;
+    background-image: url('image/vape.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+.name-subhead
+{
+    text-transform: uppercase;
+    font-size: 2.1em;
+    font-weight: bold;
+    line-height: 1.2em;
+    letter-spacing: .03em;
+    color: #ffffff;
+    width: 50%;
+}
+
+.megabuzz-club
+{
+    text-transform: uppercase;
+    font-size: 2.1em;
+    font-weight: bold;
+    line-height: 1.2em;
+    letter-spacing: .03em;
+    color: #ffffff;
+    width: 50%;
+}
+
+.white-btt
+{
+    padding: 20px 30px;
+    margin-top: 10px;
+    border-radius: 0px;
+    border: solid 1px white;
+    background: none;
+    color: white;
+    transition: all 300ms ease;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-size: 1.4em;
+    font-weight: 300;
+}
+
+.white-btt:hover
+{
+    background: white;
+    color: #333;
+    border: solid 1px white;
+}
+
+.sub-round
+{
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 200px;
+    background-color: #b34e4e;
+}
+
+.sunglasses-img
+{
+    margin-top: -10px;
+}
+
+.make {
+    width: 50%;
+    height: 675px;
+    float: left;
+    color: #fff;
+    padding: 240px 140px 140px;
+    background-image: url('image/vape-coil.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('image/vape-coil.jpg');
+    background-repeat: no-repeat;
+}
+
+.frst-lvl
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.p-1
+{
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.taste {
+    width: 50%;
+    height: 675px;
+    float: right;
+    color: #fff;
+    padding: 240px 140px 140px;
+    background-image: url('image/vape-taste.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('image/vape-taste.jpg');
+    background-repeat: no-repeat;
+    background-position: 40%;
+}
+
+.girl {
+    width: 50%;
+    height: 675px;
+    float: left;
+    color: #fff;
+    padding: 240px 140px 140px;
+    background-image: url('image/vape-girl.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('image/vape-girl.jpg');
+    background-repeat: no-repeat;
+}
+
+.vape {
+    width: 50%;
+    height: 675px;
+    float: right;
+    color: #fff;
+    padding: 240px 140px 140px;
+    background-image: url('image/vape-mod.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('image/vape-mod.jpg');
+    background-repeat: no-repeat;
+    background-position: 40%;
+}
+
+.about
+{
+    background: #EFEEEA;
+    padding: 270px 5% 70px;
+    float: right;
+    width: 50%;
+    height: 100vh;
+}
+
+.about-us
+{
+    text-transform: uppercase;
+    font-size: 3.6rem;
+    font-weight: 300;
+    display: inline;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 20px;
+}
+
+.about-meg
+{
+    font-size: 1.925rem;
+    margin-top: 45px;
+    width: 80%;
+}
+
+.sunglasses
+{
+    margin-top: -15px;
+    width: 80px;
+}
+
+.it-img
+{
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-bottom: 50px;
+    width: 236px;
+    height: 297px;
+}
+
+.shop
+{
+    padding: 100px;
+    clear: both;
+}
+
+.our-line
+{
+    margin-bottom: 40px;
+}
+
+.price
+{
+    font-size: 25px;
+    font-weight: bold;
+    color: #87d37c;
+}
+
+.black-btt
+{
+    padding: 20px 30px;
+    margin-top: 50px;
+    border-radius: 0px;
+    border: solid 1px #333;
+    background: none;
+    color: #333;
+    transition: all 300ms ease;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+}
+
+.black-btt:hover
+{
+    background: #333;
+    color: #fff;
+    border: solid 1px #333;
+}
+
+.under
+{
+    padding-top: 0px;
+}
+
+@media (max-width: 1366px)
+{
+    .name-head
+    {
+        font-size: 4.125em;
+    }
+}
+
+.card
+{
+    position: static;
+    left: 60%;
+    right: 0px;
+    bottom: 50%;
+    width: 40%;
+    height: 50%;
+    float: right;
+    clear: right;
+    background-image: url('image/club-card.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
+.img-card
+{
+    width: 50%;
+    left: 60%;
+    top: 50%;
+    right: 0px;
+    float: right;
+    background-image: url('image/vaping-men.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 98%;
+}
+
+.arrow-box
+{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-top: 3%;
+    border: 1px solid #fff;
+    padding-top: 15px;
+    color: #fff !important;
+    -webkit-animation: heartbeat 3.5s ease-in-out infinite both;
+    -moz-animation: heartbeat 3.5s ease-in-out infinite both;
+    animation: heartbeat 3.5s ease-in-out infinite both;
+}
+
+.arrow-box:hover
+{
+    background: #fff;
+    color: #333 !important;
+    border: solid 1px #fff;
+}
+
+@-webkit-keyframes scale-up-hor-center{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4)}100%{-webkit-transform:scaleX(1);transform:scaleX(1)}}
+
+@keyframes scale-up-hor-center{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4)}100%{-webkit-transform:scaleX(1);transform:scaleX(1)}}
+
+@-webkit-keyframes ping{0%{-webkit-transform:scale(.2);transform:scale(.2);opacity:.8}80%{-webkit-transform:scale(1.2);transform:scale(1.2);opacity:0}100%{-webkit-transform:scale(2.2);transform:scale(2.2);opacity:0}}
+
+@keyframes ping{0%{-webkit-transform:scale(.2);transform:scale(.2);opacity:.8}80%{-webkit-transform:scale(1.2);transform:scale(1.2);opacity:0}100%{-webkit-transform:scale(2.2);transform:scale(2.2);opacity:0}}
+
+@-webkit-keyframes heartbeat{from{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}10%{-webkit-transform:scale(.91);transform:scale(.91);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}17%{-webkit-transform:scale(.98);transform:scale(.98);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}33%{-webkit-transform:scale(.87);transform:scale(.87);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}45%{-webkit-transform:scale(1);transform:scale(1);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}
+
+@keyframes heartbeat{from{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}10%{-webkit-transform:scale(.91);transform:scale(.91);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}17%{-webkit-transform:scale(.98);transform:scale(.98);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}33%{-webkit-transform:scale(.87);transform:scale(.87);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}45%{-webkit-transform:scale(1);transform:scale(1);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}
+
